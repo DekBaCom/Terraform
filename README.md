@@ -1,5 +1,7 @@
 # All Code Terraform
 รวมโค๊ต Terraform
+## Acknowledgements
+ - [How to and Configuartion](https://github.com/DekBaCom/Terraform/blob/main/Configuration.md)
 
 ## 🚀 About Me
  - [Who am I ](https://www.linkedin.com/in/abdulloh-etaeluengoh/)
