@@ -1,27 +1,22 @@
 ## All Command for Terraform
-# To deploy infrastructure with Terraform:
-Scope - Identify the infrastructure for your project.
-Author - Write the configuration for your infrastructure.
-Initialize - Install the plugins Terraform needs to manage the infrastructure.
-Plan - Preview the changes Terraform will make to match your configuration.
-Apply - Make the planned changes.
 
 ## Command for Terraform 
 
-### INIT
-init code
+### Initialize
+Install the plugins Terraform needs to manage the infrastructure.
 
 ```bash
   terraform init
 ```
+![Screenshot](https://miro.medium.com/v2/resize:fit:720/format:webp/1*xyJUJK6eW0Cz8xbeLjDTmg.png)
 ### Validate
 Validate code
 
 ```bash
   terraform validate 
 ```
-### Review Code
-Review Code
+### Plan 
+Preview the changes Terraform will make to match your configuration.
 
 ```bash
   terraform plan 
@@ -30,8 +25,9 @@ Review Code
 ```bash
   terraform plan -out main.tfplan
 ```
-### Build 
-Build
+![Screenshot](https://miro.medium.com/v2/resize:fit:720/1*TGx6HbMMkSHylpoMfN_x8w.gif)
+### Apply 
+Make the planned changes.
 
 ```bash
   terraform apply
@@ -40,6 +36,7 @@ Build
 ```bash
   terraform apply -auto-approve
 ```
+![Screenshot](https://miro.medium.com/v2/resize:fit:720/format:webp/1*BQtg9S1fW7ejxfAAepMZSQ.png)
 ### Delete resource
 Delete resource
 
@@ -50,6 +47,7 @@ Delete resource
 ```bash
   terraform destroy -auto-approve
 ```
+![Screenshot](https://miro.medium.com/v2/resize:fit:720/format:webp/1*WGPFiNMCggQiy7Fb6bLGYw.png)
 ### Output
 Terraform Output
 
@@ -81,3 +79,17 @@ Upgrade init Terraform
 ```bash
   terraform init -upgrade
 ```
+
+## Tips and Trick 
+### How to set Alias for Terraform 
+- Open PowerShell 
+- Input command 
+
+```bash
+  Set-Alias tf terraform
+```
+After completed  you can be use sort command 
+example : 
+Old : Terraform init 
+New : tf init
+
