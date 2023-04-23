@@ -25,7 +25,7 @@ Preview the changes Terraform will make to match your configuration.
 ```bash
   terraform plan -out main.tfplan
 ```
-![Screenshot](https://miro.medium.com/v2/resize:fit:720/1*TGx6HbMMkSHylpoMfN_x8w.gif)
+![Screenshot](https://github.com/DekBaCom/Terraform/blob/main/img/Screenshot-TF-plan.png)
 ### Apply 
 Make the planned changes.
 
