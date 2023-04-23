@@ -25,7 +25,9 @@ Review Code
 
 ```bash
   terraform plan 
+```
   or 
+```bash
   terraform plan -out main.tfplan
 ```
 ### Build 
@@ -33,7 +35,9 @@ Build
 
 ```bash
   terraform apply
+```
   or 
+```bash
   terraform apply -auto-approve
 ```
 ### Delete resource
@@ -41,7 +45,9 @@ Delete resource
 
 ```bash
   terraform destroy
+```
   or 
+```bash
   terraform destroy -auto-approve
 ```
 ### Output
