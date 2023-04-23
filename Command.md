@@ -8,7 +8,7 @@ Install the plugins Terraform needs to manage the infrastructure.
 ```bash
   terraform init
 ```
-![Screenshot](https://miro.medium.com/v2/resize:fit:720/format:webp/1*xyJUJK6eW0Cz8xbeLjDTmg.png)
+![Screenshot](https://github.com/DekBaCom/Terraform/blob/main/img/Screenshot-TF-Init.png)
 ### Validate
 Validate code
 
