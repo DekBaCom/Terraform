@@ -4,7 +4,7 @@ Before running terraform on VS code and Connect to Azure
 Recommend install   Azure Power shell  https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3#msi
 
 ## Install Terraform 
- - [เข้าไป download package ที่ หน้า](https://developer.hashicorp.com/terraform/downloads)
+ - เข้าไป download package ที่นี่ (https://developer.hashicorp.com/terraform/downloads)
  - Extract file ไว้ในโฟลเดอร์ที่ต้องการ เช่น C:\Program Files
  - Set PATH environment ไปที่ folder ที่มี file terraform.exe
  - Verify ว่าเราติดตั้งเรียบร้อยโดยการรัน terraform version
