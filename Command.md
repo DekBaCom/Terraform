@@ -90,6 +90,14 @@ Upgrade init Terraform
 ```
 After completed  you can be use sort command 
 example : 
-Old : Terraform init 
-New : tf init
+Old : 
+```bash
+  Terraform init 
+```
+
+New : 
+```bash
+  tf init
+```
+
 

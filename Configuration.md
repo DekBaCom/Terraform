@@ -17,3 +17,4 @@ Recommend install   Azure Power shell  https://learn.microsoft.com/en-us/powersh
  - [How to install Terraform](https://developer.hashicorp.com/terraform/tutorials/azure-get-started/install-cli)
  - [Download Visual Studio Code](https://code.visualstudio.com/download)
  - [Azure Power shell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3#msi)
+ - [Azure Provider: Authenticating using the Azure CLI](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/azure_cli)
