@@ -36,7 +36,7 @@ Make the planned changes.
 ```bash
   terraform apply -auto-approve
 ```
-![Screenshot](https://miro.medium.com/v2/resize:fit:720/format:webp/1*BQtg9S1fW7ejxfAAepMZSQ.png)
+![Screenshot](https://github.com/DekBaCom/Terraform/blob/main/img/Screenshot-TF-Apply.png)
 ### Delete resource
 Delete resource
 
