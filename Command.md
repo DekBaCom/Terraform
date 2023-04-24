@@ -89,7 +89,9 @@ Upgrade init Terraform
   Set-Alias tf terraform
 ```
 After completed  you can be use sort command 
+
 example : 
+
 Old : 
 ```bash
   Terraform init 
