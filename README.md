@@ -1,6 +1,9 @@
 # All Code Terraform
 รวมโค๊ต Terraform
 ![Logo](https://github.com/DekBaCom/Terraform/blob/main/img/terraform-logo.png)
+#Category update on Github
+ - [All Command for Terraform](https://github.com/DekBaCom/Terraform/blob/main/Command.md)
+ 
 ## Acknowledgements
  - [How to and Configuartion](https://github.com/DekBaCom/Terraform/blob/main/Configuration.md)
  - [All Command for Terraform](https://github.com/DekBaCom/Terraform/blob/main/Command.md)
