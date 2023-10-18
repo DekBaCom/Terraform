@@ -6,7 +6,7 @@ Recommend install   Azure Power shell  https://learn.microsoft.com/en-us/powersh
 ## Install Terraform 
  - เข้าไป download package ที่นี่ (https://developer.hashicorp.com/terraform/downloads)
  - Extract file ไว้ในโฟลเดอร์ที่ต้องการ เช่น C:\Program Files
- - Set PATH environment ไปที่ folder ที่มี file terraform.exe [How to set path envirment](https://jeffbrown.tech/install-terraform-windows/)
+ - Set PATH environment [How to set path envirment](https://jeffbrown.tech/install-terraform-windows/) ไปที่ folder ที่มี file terraform.exe 
  - Verify ว่าเราติดตั้งเรียบร้อยโดยการรัน terraform version
 ## Screenshots
 ![Screenshot](https://miro.medium.com/v2/resize:fit:640/format:webp/1*QDz_gfYoyYmFKMMenBh-hw.png)
