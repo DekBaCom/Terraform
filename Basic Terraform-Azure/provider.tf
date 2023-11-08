@@ -1,4 +1,4 @@
-
+#Add Provider
 provider "azurerm" {
   subscription_id = ""
   client_id       = ""
@@ -6,3 +6,4 @@ provider "azurerm" {
   tenant_id       = ""
   features {}
 }
+
