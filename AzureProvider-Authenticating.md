@@ -49,7 +49,7 @@ az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/20000000-
 az login --service-principal -u CLIENT_ID -p CLIENT_SECRET --tenant TENANT_ID
 
 ## Screenshots
-![Screenshot](https://miro.medium.com/v2/resize:fit:640/format:webp/1*QDz_gfYoyYmFKMMenBh-hw.png)
+![Screenshot]([https://miro.medium.com/v2/resize:fit:640/format:webp/1*QDz_gfYoyYmFKMMenBh-hw.png](https://github.com/DekBaCom/Terraform/blob/main/img/Output-Service-AuthenResult01.jpg))
 
 ## Provider
 ## Acknowledgements
