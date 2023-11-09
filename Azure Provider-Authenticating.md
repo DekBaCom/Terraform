@@ -1,7 +1,8 @@
-## Configuration Center
-## Azure Powershell for use terraform on VS Code 
-Before running terraform on VS code and Connect to Azure 
-Recommend install   Azure Power shell  https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3#msi
+## Azure Provider Authentication
+## Azure Provider: Authenticating using a Service Principal with a Client Secret
+Terraform supports a number of different methods for authenticating to Azure:
+- [Authenticating to Azure using the Azure CLI](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/azure_cli)
+
 
 ## Install Terraform 
  - เข้าไป download package ที่นี่ (https://developer.hashicorp.com/terraform/downloads)
@@ -23,4 +24,3 @@ Recommend install   Azure Power shell  https://learn.microsoft.com/en-us/powersh
  - [Authenticating to Azure using a Service Principal and a Client Certificate](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/service_principal_client_certificate)   
  - [Authenticating to Azure using a Service Principal and a Client Secret](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/service_principal_client_secret)  
  - [Authenticating to Azure using a Service Principal and OpenID Connect](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/service_principal_oidc) 
-
