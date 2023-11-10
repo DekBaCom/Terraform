@@ -10,6 +10,8 @@ We recommend using either a Service Principal or Managed Service Identity when r
 - Select running with azure CLI and get account list with command 
 az account list
 The output (similar to below) will display one or more Subscriptions - with the id field being the subscription_id field referenced above.
+```bash
+
 [
   {
     "cloudName": "AzureCloud",
@@ -24,7 +26,7 @@ The output (similar to below) will display one or more Subscriptions - with the 
     }
   }
 ]
-
+```
 - Set azure subsciption with command 
 az account set --subscription="<ID or Subscription id >" 
 
