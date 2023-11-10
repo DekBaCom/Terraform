@@ -3,3 +3,8 @@ provider.tf
 ./Completed-Code/Azure/.terraform/providers/registry.terraform.io
 ./Completed-Code/Azure/.terraform.lock.hcl
 ./Completed-Code/Azure/terraform.tfstate
+registry.terraform.io
+.terraform.lock.hcl
+terraform.tfstate
+./Completed-Code/Azure/.terraform/
+./Completed-Code/Azure_bk
