@@ -12,3 +12,4 @@ Completed-Code/Azure/.terraform.lock.hcl
 Completed-Code/Azure/.terraform/providers/registry.terraform.io
 Completed-Code/Azure/terraform.tfstate
 Completed-Code/Azure/.terraform/
+.terraform/
