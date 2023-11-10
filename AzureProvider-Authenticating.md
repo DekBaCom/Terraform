@@ -10,8 +10,8 @@ We recommend using either a Service Principal or Managed Service Identity when r
 - Select running with azure CLI and get account list with command 
 az account list
 The output (similar to below) will display one or more Subscriptions - with the id field being the subscription_id field referenced above.
-```bash
 
+```bash
 [
   {
     "cloudName": "AzureCloud",
@@ -28,12 +28,17 @@ The output (similar to below) will display one or more Subscriptions - with the 
 ]
 ```
 - Set azure subsciption with command 
+
+```bash 
 az account set --subscription="<ID or Subscription id >" 
 
+```
 - Create Account   on example account sp 
+```bash 
 az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/20000000-0000-0000-0000-000000000000"
-
+```
 - This command will output 5 values:
+```bash 
 {
   "appId": "00000000-0000-0000-0000-000000000000",
   "displayName": "azure-cli-2017-06-05-10-41-15",
@@ -41,6 +46,7 @@ az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/20000000-
   "password": "0000-0000-0000-0000-000000000000",
   "tenant": "00000000-0000-0000-0000-000000000000"
 }
+```
 
 - These values map to the Terraform variables like so:
   appId = client_id
