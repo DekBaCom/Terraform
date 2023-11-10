@@ -1,5 +1,4 @@
-# All Code Terraform
-รวมโค๊ต Terraform
+# Terraform
 ![Logo](https://github.com/DekBaCom/Terraform/blob/main/img/terraform-logo.png)
 
 #  Topic
