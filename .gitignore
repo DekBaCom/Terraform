@@ -15,3 +15,4 @@ Completed-Code/Azure/.terraform/
 .terraform/
 variables.tf
 Completed-Code/Azure/variables.tf
+Completed-Code/Azure/main.tf
