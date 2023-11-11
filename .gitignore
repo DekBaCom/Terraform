@@ -16,4 +16,7 @@ Completed-Code/Azure/.terraform/
 variables.tf
 Completed-Code/Azure/variables.tf
 Completed-Code/Azure/main.tf
-Lab-import
+Lab-import/provider.tf
+Lab-import/.terraform
+Lab-import/.terraform.lock.hcl
+Lab-import/.terraform.lock.terraform.tfstate
