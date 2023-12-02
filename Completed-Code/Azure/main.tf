@@ -7,14 +7,18 @@ in this terraform configuration file
 
 */
 
-
+resource "random_integer" "priority" {
+  min = 1
+  max = 500
+ 
+}
 resource "azurerm_resource_group" "appgrp" {
   name     = "app-grp"
   location = "North Europe"
 }
 
 resource "azurerm_storage_account" "appstore" {
-  name                     = "${random_string.storage_account_name.result}stor"
+  name                     = "${random_integer.priority.result}lee"
   resource_group_name      = "app-grp"
   location                 = "North Europe"
   account_tier             = "Standard"
