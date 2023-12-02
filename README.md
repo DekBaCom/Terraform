@@ -3,7 +3,7 @@
 
 #  Topic
  - [All Command for Terraform](https://github.com/DekBaCom/Terraform/blob/main/doc/Command.md)
- - [How to and Configuartion]https://github.com/DekBaCom/Terraform/blob/main/doc/Configuration.md)
+ - [How to and Configuartion](https://github.com/DekBaCom/Terraform/blob/main/doc/Configuration.md)
  - [Azure Provider Authenticating](https://github.com/DekBaCom/Terraform/blob/main/doc/AzureProvider-Authenticating.md)
 
 ## Acknowledgements
