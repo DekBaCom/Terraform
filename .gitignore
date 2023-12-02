@@ -22,6 +22,11 @@ Lab-import/provider.tf
 Lab-import/.terraform
 Lab-import/.terraform.lock.hcl
 Lab-import/.terraform.lock.terraform.tfstate
+Lab-Azure/lab-CreateVM/provider.tf
+Lab-Azure/lab-CreateVM/.terraform
+Lab-Azure/lab-CreateVM/.terraform.lock.terraform.tfstate
+Lab-Azure/lab-CreateVM/.terraform.lock.hcl
+
 # Local .terraform directories
 **/.terraform/*
 
