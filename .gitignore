@@ -13,6 +13,7 @@ Completed-Code/Azure/.terraform/providers/registry.terraform.io
 Completed-Code/Azure/terraform.tfstate
 Completed-Code/Azure/.terraform/
 .terraform/
+Completed-Code/Azure/terraform.tfstate.backup
 variables.tf
 Completed-Code/Azure/variables.tf
 Completed-Code/Azure/main.tf
